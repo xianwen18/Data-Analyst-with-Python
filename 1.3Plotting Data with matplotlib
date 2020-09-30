@@ -138,7 +138,12 @@ plt.plot(suspect2.letter, suspect2.frequency, label='Gertrude Cox')
 # Display plot
 plt.show()
 
-Frequentist')
+
+
+# Plot each line
+plt.plot(ransom.letter, ransom.frequency,
+         label='Ransom', linestyle=':', color='gray')
+plt.plot(suspect1.letter, suspect1.frequency, label='Fred Frequentist')
 plt.plot(suspect2.letter, suspect2.frequency, label='Gertrude Cox')
 
 # Add x- and y-labels
